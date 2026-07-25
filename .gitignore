@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+argv.json
+
+# Testing
+.pytest_cache/
+test_reviews.db
+*.db
+*.sqlite3
+
+# Generated Files
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/**/.gitkeep
+final_reports/*
+!final_reports/.gitkeep
+review_data/reports/*
+!review_data/reports/.gitkeep
+
+# Environment
+.env
+*.env.local
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db

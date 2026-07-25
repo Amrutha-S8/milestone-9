@@ -1,0 +1,69 @@
+{
+  "language": "English",
+  "language_code": "en",
+  "flows": {
+    "greeting": {
+      "intent": "greeting",
+      "next_action": "ask_how_to_help",
+      "response_template": "Hello! Welcome to StayZa Hotel. How can I assist you today?",
+      "keywords": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings", "stayza"],
+      "examples": ["Hello StayZa", "Hi, good morning", "Hey there"]
+    },
+    "booking": {
+      "intent": "booking",
+      "next_action": "ask_checkin_date",
+      "response_template": "I would be happy to help you book a room. What is your check-in date?",
+      "keywords": ["book", "booking", "reserve", "reservation", "want a room", "need a room", "stay"],
+      "examples": ["I want to book a room", "Reserve a deluxe suite", "Make a booking"]
+    },
+    "availability": {
+      "intent": "availability",
+      "next_action": "ask_stay_dates",
+      "response_template": "Let me check room availability for you. What dates are you planning to stay?",
+      "keywords": ["available", "availability", "vacant", "vacancy", "free room", "any rooms"],
+      "examples": ["Are there any rooms available?", "Check availability for tomorrow", "Is a deluxe room free?"]
+    },
+    "price_enquiry": {
+      "intent": "price_enquiry",
+      "next_action": "provide_rate_card",
+      "response_template": "Our rooms start at $100 per night for Standard and $200 for Deluxe Suite.",
+      "keywords": ["price", "cost", "rate", "tariff", "how much", "charge", "expensive"],
+      "examples": ["How much is a room per night?", "What are your room rates?", "Price enquiry for suite"]
+    },
+    "cancellation": {
+      "intent": "cancellation",
+      "next_action": "ask_booking_id",
+      "response_template": "I can assist with cancelling your reservation. Please provide your booking ID.",
+      "keywords": ["cancel", "cancellation", "drop booking", "revoke", "refund"],
+      "examples": ["I want to cancel my reservation", "Cancel my booking please"]
+    },
+    "modify_booking": {
+      "intent": "modify_booking",
+      "next_action": "ask_modification_details",
+      "response_template": "I can help you modify your reservation. What changes would you like to make?",
+      "keywords": ["modify", "change", "reschedule", "extend", "update booking", "alter reservation"],
+      "examples": ["I want to change my booking dates", "Modify my reservation", "Reschedule my stay"]
+    },
+    "check_status": {
+      "intent": "check_status",
+      "next_action": "ask_booking_id",
+      "response_template": "I can check your reservation status. Please provide your booking ID or guest name.",
+      "keywords": ["status", "check status", "booking status", "my booking", "track booking"],
+      "examples": ["Check my booking status", "What is the status of my reservation?", "Track booking BK1234"]
+    },
+    "goodbye": {
+      "intent": "goodbye",
+      "next_action": "end_call",
+      "response_template": "Thank you for contacting StayZa Hotel. Have a wonderful day!",
+      "keywords": ["bye", "goodbye", "thank you", "thanks", "see you", "have a nice day"],
+      "examples": ["Thank you goodbye", "Bye StayZa", "Thanks for your help"]
+    },
+    "unknown": {
+      "intent": "unknown",
+      "next_action": "ask_clarification",
+      "response_template": "I'm sorry, I didn't quite catch that. Could you please rephrase your request?",
+      "keywords": [],
+      "examples": ["qwertyuiop 12345"]
+    }
+  }
+}

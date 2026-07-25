@@ -1,0 +1,90 @@
+[
+  {
+    "id": "utt_001",
+    "text": "I want to book a room",
+    "expected_language": "English",
+    "expected_intent": "booking",
+    "expected_next_action": "ask_checkin_date",
+    "category": "standard"
+  },
+  {
+    "id": "utt_002",
+    "text": "Hello StayZa, good morning!",
+    "expected_language": "English",
+    "expected_intent": "greeting",
+    "expected_next_action": "ask_how_to_help",
+    "category": "standard"
+  },
+  {
+    "id": "utt_003",
+    "text": "I need to cancel my reservation BK-9941",
+    "expected_language": "English",
+    "expected_intent": "cancellation",
+    "expected_next_action": "confirm_cancellation",
+    "category": "standard"
+  },
+  {
+    "id": "utt_004",
+    "text": "Do you have any deluxe rooms available for tomorrow?",
+    "expected_language": "English",
+    "expected_intent": "availability",
+    "expected_next_action": "ask_stay_dates",
+    "category": "standard"
+  },
+  {
+    "id": "utt_005",
+    "text": "How much does a suite room cost per night?",
+    "expected_language": "English",
+    "expected_intent": "price_enquiry",
+    "expected_next_action": "provide_rate_card",
+    "category": "standard"
+  },
+  {
+    "id": "utt_006",
+    "text": "Hi, I would like to reserve a executive suite",
+    "expected_language": "English",
+    "expected_intent": "booking",
+    "expected_next_action": "ask_checkin_date",
+    "category": "standard"
+  },
+  {
+    "id": "utt_007",
+    "text": "Can I cancel my booking please?",
+    "expected_language": "English",
+    "expected_intent": "cancellation",
+    "expected_next_action": "ask_booking_id",
+    "category": "standard"
+  },
+  {
+    "id": "utt_008",
+    "text": "Is there any room vacancy this weekend?",
+    "expected_language": "English",
+    "expected_intent": "availability",
+    "expected_next_action": "ask_stay_dates",
+    "category": "standard"
+  },
+  {
+    "id": "utt_009",
+    "text": "What are your room rates and tariff details?",
+    "expected_language": "English",
+    "expected_intent": "price_enquiry",
+    "expected_next_action": "provide_rate_card",
+    "category": "standard"
+  },
+  {
+    "id": "utt_010",
+    "text": "Hey there",
+    "expected_language": "English",
+    "expected_intent": "greeting",
+    "expected_next_action": "ask_how_to_help",
+    "category": "standard"
+  },
+  {
+    "id": "utt_011",
+    "text": "xyz abcd 12345",
+    "expected_language": "English",
+    "expected_intent": "unknown",
+    "expected_next_action": "ask_clarification",
+    "category": "edge_case"
+  }
+]

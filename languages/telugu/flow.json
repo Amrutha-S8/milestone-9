@@ -1,0 +1,69 @@
+{
+  "language": "Telugu",
+  "language_code": "te",
+  "flows": {
+    "greeting": {
+      "intent": "greeting",
+      "next_action": "ask_how_to_help",
+      "response_template": "నమస్కారం! స్టేజా హోటల్‌కు స్వాగతం. నేను మీకు ఎలా సహాయపడగలను?",
+      "keywords": ["నమస్కారం", "హలో", "స్టేజా", "గుడ్ మార్నింగ్"],
+      "examples": ["నమస్కారం స్టేజా", "హలో గుడ్ మార్నింగ్"]
+    },
+    "booking": {
+      "intent": "booking",
+      "next_action": "ask_checkin_date",
+      "response_template": "మీకు రూమ్ బుక్ చేయడంలో నాకు సంతోషంగా ఉంది. మీ చెక్-ఇన్ తేదీ ఏమిటి?",
+      "keywords": ["గది కావాలి", "రూమ్ కావాలి", "బుక్ చేయాలి", "బుకింగ్", "రిజర్వేషన్"],
+      "examples": ["మాకు ఒక గది కావాలి", "నాకు ఒక రూమ్ బుక్ చేయాలి", "ఒక డిలక్స్ రూమ్ కావాలి"]
+    },
+    "availability": {
+      "intent": "availability",
+      "next_action": "ask_stay_dates",
+      "response_template": "నేను రూమ్ లభ్యతను తనిఖీ చేస్తాను. మీరు ఏ తేదీలలో ఉండాలనుకుంటున్నారు?",
+      "keywords": ["లభ్యత", "ఖాళీగా ఉందా", "రూమ్‌లు ఉన్నాయా", "అందుబాటులో"],
+      "examples": ["రేపటికి గదులు అందుబాటులో ఉన్నాయా?", "హోటల్‌లో రూమ్‌లు ఖాళీగా ఉన్నాయా?"]
+    },
+    "price_enquiry": {
+      "intent": "price_enquiry",
+      "next_action": "provide_rate_card",
+      "response_template": "మా హోటల్ రూమ్ ధర ఒక రాత్రికి ₹3000 నుండి ప్రారంభమవుతుంది.",
+      "keywords": ["ధర ఎంత", "రేటు ఎంత", "ఖర్చు ఎంత", "ఛార్జీలు"],
+      "examples": ["ఒక రాత్రికి గది ధర ఎంత?", "రూమ్ రేట్లు ఏమిటి?"]
+    },
+    "cancellation": {
+      "intent": "cancellation",
+      "next_action": "ask_booking_id",
+      "response_template": "నేను మీ బుకింగ్‌ను రద్దు చేయడంలో సహాయపడతాను. దయచేసి మీ బుకింగ్ ఐడీని అందించండి.",
+      "keywords": ["రద్దు చేయాలి", "క్యాన్సల్", "బుకింగ్ రద్దు"],
+      "examples": ["నా బుకింగ్‌ను రద్దు చేయాలి", "నా రూమ్ క్యాన్సల్ చేయండి"]
+    },
+    "modify_booking": {
+      "intent": "modify_booking",
+      "next_action": "ask_modification_details",
+      "response_template": "నేను మీ బుకింగ్ వివరాలను మార్చడంలో సహాయపడతాను. మీరు ఏమి మార్చాలనుకుంటున్నారు?",
+      "keywords": ["మార్చాలి", "తేదీ మార్చాలి", "సవరణ"],
+      "examples": ["నేను బుకింగ్ తేదీలను మార్చాలనుకుంటున్నాను", "నా రిజర్వేషన్ సవరించండి"]
+    },
+    "check_status": {
+      "intent": "check_status",
+      "next_action": "ask_booking_id",
+      "response_template": "నేను మీ బుకింగ్ స్థితిని తనిఖీ చేయగలను. దయచేసి మీ బుకింగ్ ఐడీని అందించండి.",
+      "keywords": ["స్థితి", "బుకింగ్ స్థితి", "స్టేటస్", "వివరాలు"],
+      "examples": ["నా బుకింగ్ స్థితి ఏమిటి?", "బుకింగ్ స్టేటస్ చెక్ చేయండి"]
+    },
+    "goodbye": {
+      "intent": "goodbye",
+      "next_action": "end_call",
+      "response_template": "స్టేజా హోటల్‌ను సంప్రదించినందుకు ధన్యవాదాలు. మంచి రోజు కావాలని కోరుకుంటున్నాము!",
+      "keywords": ["ధన్యవాదాలు", "బై", "వెళ్లి వస్తాను"],
+      "examples": ["చాలా ధన్యవాదాలు", "బై స్టేజా"]
+    },
+    "unknown": {
+      "intent": "unknown",
+      "next_action": "ask_clarification",
+      "response_template": "క్షమించండి, నేను అర్థం చేసుకోలేకపోయాను. దయచేసి మళ్లీ చెప్పగలరా?",
+      "keywords": [],
+      "examples": ["అబ్కడ్ 12345"]
+    }
+  }
+}
