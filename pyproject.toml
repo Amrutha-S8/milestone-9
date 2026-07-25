@@ -1,0 +1,5 @@
+[project]
+name = "stayza-milestone9"
+version = "1.0.0"
+description = "StayZa Milestone 9 - AI Evaluation Platform"
+requires-python = ">=3.11"

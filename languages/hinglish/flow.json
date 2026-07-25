@@ -1,0 +1,69 @@
+{
+  "language": "Hinglish",
+  "language_code": "hi-en",
+  "flows": {
+    "greeting": {
+      "intent": "greeting",
+      "next_action": "ask_how_to_help",
+      "response_template": "Namaste! StayZa Hotel me aapka swagat hai. Main aapki kya help kar sakta hu?",
+      "keywords": ["namaste", "hello", "hi", "hey", "stayza", "good morning"],
+      "examples": ["Namaste StayZa", "Hi, good morning bhai", "Hey StayZa help karo"]
+    },
+    "booking": {
+      "intent": "booking",
+      "next_action": "ask_checkin_date",
+      "response_template": "Mujhe aapke liye room book karne me khushi hogi. Aapki check-in date kya hai?",
+      "keywords": ["room chahiye", "book karna", "booking", "room book", "reserve karna"],
+      "examples": ["Mujhe ek room book karna hai", "Ek deluxe room chahiye", "StayZa room book karo"]
+    },
+    "availability": {
+      "intent": "availability",
+      "next_action": "ask_stay_dates",
+      "response_template": "Main aapke liye room availability check karta hu. Aap kis date ko stay karna chahte ho?",
+      "keywords": ["available hai", "room khali", "vacancy hai", "availability check"],
+      "examples": ["Kal ke liye room available hai kya?", "Kya hotel me room khali hai?"]
+    },
+    "price_enquiry": {
+      "intent": "price_enquiry",
+      "next_action": "provide_rate_card",
+      "response_template": "Hamare room ka price per night 3000 rupees se start hota hai.",
+      "keywords": ["kitna paise", "kitna price", "rate kya hai", "cost kitna", "tariff"],
+      "examples": ["Ek room ka kitna price hai?", "Room rates kya hai per night?"]
+    },
+    "cancellation": {
+      "intent": "cancellation",
+      "next_action": "ask_booking_id",
+      "response_template": "Main aapki booking cancel karne me help kar sakta hu. Please booking ID batao.",
+      "keywords": ["cancel karna", "cancellation", "booking cancel", "drop karna"],
+      "examples": ["Mujhe meri booking cancel karni hai", "Booking cancel kar do please"]
+    },
+    "modify_booking": {
+      "intent": "modify_booking",
+      "next_action": "ask_modification_details",
+      "response_template": "Main aapki booking modify kar sakta hu. Aapko kya change karna hai?",
+      "keywords": ["change karna", "modify", "date badalna", "reschedule"],
+      "examples": ["Mujhe booking dates change karni hai", "Reservation modify karna hai"]
+    },
+    "check_status": {
+      "intent": "check_status",
+      "next_action": "ask_booking_id",
+      "response_template": "Main aapka booking status check kar sakta hu. Please booking ID bataiye.",
+      "keywords": ["status kya hai", "booking status", "status check", "my booking status"],
+      "examples": ["Meri booking ka status kya hai?", "Booking status check karo bhai"]
+    },
+    "goodbye": {
+      "intent": "goodbye",
+      "next_action": "end_call",
+      "response_template": "StayZa Hotel se contact karne ke liye shukriya. Aapka din accha rahe!",
+      "keywords": ["shukriya", "thanks", "bye", "goodbye", "dhanyawad"],
+      "examples": ["Shukriya thanks", "Bye StayZa", "Thanks bhai"]
+    },
+    "unknown": {
+      "intent": "unknown",
+      "next_action": "ask_clarification",
+      "response_template": "Sorry, main samajh nahi paya. Kya aap dobara bol sakte ho?",
+      "keywords": [],
+      "examples": ["abcd 12345"]
+    }
+  }
+}

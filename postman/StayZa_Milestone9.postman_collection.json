@@ -1,0 +1,168 @@
+{
+  "info": {
+    "name": "StayZa Milestone 9 API",
+    "description": "Complete API collection for StayZa Milestone 9: Language Detection, Analysis, Evaluation, Review System, Monitoring, and Integration.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "1.0.0"
+  },
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      { "key": "in", "value": "header" },
+      { "key": "name", "value": "X-API-Key" },
+      { "key": "value", "value": "{{api_key}}" }
+    ]
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000" },
+    { "key": "api_key", "value": "your-api-key-here" }
+  ],
+  "item": [
+    {
+      "name": "Health & Status",
+      "item": [
+        { "name": "Root", "request": { "method": "GET", "url": "{{base_url}}/" } },
+        { "name": "Health Check", "request": { "method": "GET", "url": "{{base_url}}/health" } }
+      ]
+    },
+    {
+      "name": "Language Detection & Analysis",
+      "item": [
+        {
+          "name": "Detect Language",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/language/detect",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"text\": \"I want to book a deluxe room for two guests\"}"}
+          }
+        },
+        {
+          "name": "Full Analysis (English)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/language/analyze",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"text\": \"I want to book a deluxe room for 2 adults tomorrow\", \"language\": \"English\"}"}
+          }
+        },
+        {
+          "name": "Full Analysis (Hindi)",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/language/analyze",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"text\": \"mujhe ek deluxe kamra do guest ke liye kal subah book karna hai\", \"language\": \"Hindi\"}"}
+          }
+        },
+        {
+          "name": "List Supported Languages",
+          "request": { "method": "GET", "url": "{{base_url}}/language/supported" }
+        },
+        {
+          "name": "Get Flagged Utterances",
+          "request": { "method": "GET", "url": "{{base_url}}/language/review/flagged" }
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "item": [
+        {
+          "name": "Run Full Evaluation",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/language/evaluation/run",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{}"}
+          }
+        },
+        { "name": "Get Evaluation Results", "request": { "method": "GET", "url": "{{base_url}}/language/evaluation/results" } },
+        { "name": "Get Language Status", "request": { "method": "GET", "url": "{{base_url}}/language/languages/status" } },
+        { "name": "Run Benchmark", "request": { "method": "GET", "url": "{{base_url}}/language/evaluate" } }
+      ]
+    },
+    {
+      "name": "Review System",
+      "item": [
+        {
+          "name": "Create Reviewer",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/reviews/reviewers",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"name\": \"Ravi Sharma\", \"languages\": [\"English\", \"Hindi\"]}"}
+          }
+        },
+        { "name": "List Reviewers", "request": { "method": "GET", "url": "{{base_url}}/reviews/reviewers" } },
+        {
+          "name": "Create Conversation",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/reviews/conversations",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"conversation_id\": \"conv_001\", \"language\": \"English\", \"original_text\": \"I need a deluxe room for 2 adults\"}"}
+          }
+        },
+        {
+          "name": "Create Review",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/reviews/create",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"conversation_id\": 1, \"reviewer_id\": 1, \"feedback\": \"Good pronunciation.\", \"ratings\": {\"pronunciation\": 8.5, \"language_accuracy\": 9.0, \"intent_accuracy\": 8.0, \"naturalness\": 7.5, \"conversation_quality\": 8.5, \"overall_rating\": 8.3}, \"approval\": {\"status\": \"Pending\", \"reviewer_notes\": \"Awaiting review.\"}}"}
+          }
+        },
+        { "name": "List Reviews", "request": { "method": "GET", "url": "{{base_url}}/reviews?page=1&page_size=20" } },
+        { "name": "Get Review by ID", "request": { "method": "GET", "url": "{{base_url}}/reviews/1" } },
+        {
+          "name": "Update Review",
+          "request": {
+            "method": "PUT",
+            "url": "{{base_url}}/reviews/1",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"feedback\": \"Updated feedback\", \"approval\": {\"status\": \"Approved\", \"reviewer_notes\": \"All good.\"}}"}
+          }
+        },
+        { "name": "Delete Review", "request": { "method": "DELETE", "url": "{{base_url}}/reviews/1" } },
+        { "name": "Get Reviews by Language", "request": { "method": "GET", "url": "{{base_url}}/reviews/language/English" } },
+        { "name": "Get Review Analytics", "request": { "method": "GET", "url": "{{base_url}}/reviews/analytics" } },
+        { "name": "Generate Review Report", "request": { "method": "GET", "url": "{{base_url}}/reviews/reports/generate" } }
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "item": [
+        { "name": "Get Metrics", "request": { "method": "GET", "url": "{{base_url}}/monitoring/metrics" } },
+        { "name": "Get Health", "request": { "method": "GET", "url": "{{base_url}}/monitoring/health" } },
+        { "name": "Liveness Probe", "request": { "method": "GET", "url": "{{base_url}}/monitoring/health/live" } },
+        { "name": "Readiness Probe", "request": { "method": "GET", "url": "{{base_url}}/monitoring/health/ready" } }
+      ]
+    },
+    {
+      "name": "Integration (Milestone 8)",
+      "item": [
+        {
+          "name": "Analyze Utterance",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/v1/analyze",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"text\": \"I want to book a room\", \"language\": \"English\"}"}
+          }
+        },
+        {
+          "name": "Run Evaluation",
+          "request": {
+            "method": "POST",
+            "url": "{{base_url}}/api/v1/evaluate",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "body": {"mode": "raw", "raw": "{\"count\": 50}"}
+          }
+        },
+        { "name": "List Languages for Integration", "request": { "method": "GET", "url": "{{base_url}}/api/v1/languages" } },
+        { "name": "Integration Health", "request": { "method": "GET", "url": "{{base_url}}/api/v1/health" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "stayza": {
+    "arpabet": "S T EY1 Z AH0",
+    "ipa": "ˈsteɪ.zə",
+    "phonetic_spelling": "Stay-zah",
+    "domain": "brand",
+    "language": "English",
+    "alternatives": ["stay za", "stay-za"]
+  },
+  "deluxe": {
+    "arpabet": "D IH0 L AH1 K S",
+    "ipa": "dɪˈlʌks",
+    "phonetic_spelling": "Deh-luks",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": ["de luxe", "de-luxe"],
+    "hindi_phonetic": "डीलक्स",
+    "telugu_phonetic": "డీలక్స్",
+    "marathi_phonetic": "डीलक्स",
+    "malayalam_phonetic": "ഡീലക്സ്"
+  },
+  "concierge": {
+    "arpabet": "K AA2 N S IY0 EH1 R ZH",
+    "ipa": "ˌkɒn.siˈɛərʒ",
+    "phonetic_spelling": "Kon-see-air-zh",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["concièrge"]
+  },
+  "checkout": {
+    "arpabet": "CH EH1 K AW2 T",
+    "ipa": "ˈtʃɛk.aʊt",
+    "phonetic_spelling": "Check-owt",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["check out", "check-out"]
+  },
+  "checkin": {
+    "arpabet": "CH EH1 K IH2 N",
+    "ipa": "ˈtʃɛk.ɪn",
+    "phonetic_spelling": "Check-in",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["check in", "check-in"]
+  },
+  "suite": {
+    "arpabet": "S W IY1 T",
+    "ipa": "swiːt",
+    "phonetic_spelling": "Sweet",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": [],
+    "hindi_phonetic": "स्वीट",
+    "telugu_phonetic": "స్వీట్",
+    "marathi_phonetic": "स्वीट",
+    "malayalam_phonetic": "സ്വീറ്റ്"
+  },
+  "reservation": {
+    "arpabet": "R EH2 Z ER0 V EY1 SH AH0 N",
+    "ipa": "ˌrɛz.ərˈveɪ.ʃən",
+    "phonetic_spelling": "Rez-er-vay-shun",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["booking", "reserve"],
+    "hindi_alternatives": ["आरक्षण", "बुकिंग"],
+    "telugu_alternatives": ["రిజర్వేషన్", "బుకింగ్"],
+    "marathi_alternatives": ["राखीव", "बुकिंग"],
+    "malayalam_alternatives": ["റിസർവേഷൻ", "ബുക്കിംഗ്"]
+  },
+  "booking": {
+    "arpabet": "B UH1 K IH0 NG",
+    "ipa": "ˈbʊk.ɪŋ",
+    "phonetic_spelling": "Book-ing",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["reservation"]
+  },
+  "cancellation": {
+    "arpabet": "K AE2 N S AH0 L EY1 SH AH0 N",
+    "ipa": "ˌkæn.səˈleɪ.ʃən",
+    "phonetic_spelling": "Kan-suh-lay-shun",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["cancel", "cancelling"]
+  },
+  "availability": {
+    "arpabet": "AH0 V EY2 L AH0 B IH1 L IH0 T IY0",
+    "ipa": "əˌveɪ.ləˈbɪl.ɪ.ti",
+    "phonetic_spelling": "Uh-vay-luh-bil-ih-tee",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["vacancy", "available"]
+  },
+  "standard": {
+    "arpabet": "S T AE1 N D ER0 D",
+    "ipa": "ˈstæn.dəd",
+    "phonetic_spelling": "Stan-derd",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": [],
+    "hindi_phonetic": "स्टैंडर्ड",
+    "telugu_phonetic": "స్టాండర్డ్",
+    "marathi_phonetic": "स्टँडर्ड",
+    "malayalam_phonetic": "സ്റ്റാൻഡേർഡ്"
+  },
+  "executive": {
+    "arpabet": "IH0 G Z EH1 K Y AH0 T IH0 V",
+    "ipa": "ɪɡˈzɛk.jə.tɪv",
+    "phonetic_spelling": "Ig-zek-yuh-tiv",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": ["exec"],
+    "hindi_alternatives": ["एग्जीक्यूटिव"],
+    "telugu_alternatives": ["ఎగ్జిక్యూటివ్"],
+    "marathi_alternatives": ["एग्झिक्युटिव्ह"],
+    "malayalam_alternatives": ["എക്സിക്യൂട്ടീവ്"]
+  },
+  "presidential": {
+    "arpabet": "P R EH2 Z IH0 D EH1 N SH AH0 L",
+    "ipa": "ˌprɛz.ɪˈdɛn.ʃəl",
+    "phonetic_spelling": "Prez-ih-den-shul",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": ["president"]
+  },
+  "king": {
+    "arpabet": "K IH1 NG",
+    "ipa": "kɪŋ",
+    "phonetic_spelling": "King",
+    "domain": "bed_type",
+    "language": "English",
+    "alternatives": ["king-size", "king size"]
+  },
+  "queen": {
+    "arpabet": "K W IY1 N",
+    "ipa": "kwiːn",
+    "phonetic_spelling": "Kween",
+    "domain": "bed_type",
+    "language": "English",
+    "alternatives": ["queen-size", "queen size"]
+  },
+  "twin": {
+    "arpabet": "T W IH1 N",
+    "ipa": "twɪn",
+    "phonetic_spelling": "Twin",
+    "domain": "bed_type",
+    "language": "English",
+    "alternatives": ["twin beds"]
+  },
+  "single": {
+    "arpabet": "S IH1 NG G AH0 L",
+    "ipa": "ˈsɪŋ.ɡəl",
+    "phonetic_spelling": "Sing-guhl",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": ["single bed"]
+  },
+  "double": {
+    "arpabet": "D AH1 B AH0 L",
+    "ipa": "ˈdʌb.əl",
+    "phonetic_spelling": "Duh-buhl",
+    "domain": "room_type",
+    "language": "English",
+    "alternatives": ["double bed"]
+  },
+  "occupancy": {
+    "arpabet": "AA1 K Y AH0 P AH0 N S IY0",
+    "ipa": "ˈɒk.jʊ.pən.si",
+    "phonetic_spelling": "Ok-yoo-pun-see",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["capacity", "guests"]
+  },
+  "guest": {
+    "arpabet": "G EH1 S T",
+    "ipa": "ɡɛst",
+    "phonetic_spelling": "Gest",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["visitor", "customer"]
+  },
+  "tariff": {
+    "arpabet": "T EH1 R IH0 F",
+    "ipa": "ˈtɛr.ɪf",
+    "phonetic_spelling": "Tehr-if",
+    "domain": "pricing",
+    "language": "English",
+    "alternatives": ["rate", "price", "charge"]
+  },
+  "invoice": {
+    "arpabet": "IH1 N V OY2 S",
+    "ipa": "ˈɪn.vɔɪs",
+    "phonetic_spelling": "In-vois",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["bill", "receipt"]
+  },
+  "refund": {
+    "arpabet": "R IY1 F AH2 N D",
+    "ipa": "ˈriː.fʌnd",
+    "phonetic_spelling": "Ree-fund",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["reimbursement", "money back"]
+  },
+  "complimentary": {
+    "arpabet": "K AA2 M P L AH0 M EH1 N T R IY0",
+    "ipa": "ˌkɒm.plɪˈmɛn.tri",
+    "phonetic_spelling": "Kom-plih-men-tree",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["free", "on the house"]
+  },
+  "continental": {
+    "arpabet": "K AA2 N T AH0 N EH1 N T AH0 L",
+    "ipa": "ˌkɒn.tɪˈnɛn.təl",
+    "phonetic_spelling": "Kon-tih-nen-tuhl",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["american breakfast"]
+  },
+  "housekeeping": {
+    "arpabet": "HH AW1 S K IY2 P IH0 NG",
+    "ipa": "ˈhaʊsˌkiː.pɪŋ",
+    "phonetic_spelling": "Houss-kee-ping",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["maid service", "room cleaning"]
+  },
+  "lobby": {
+    "arpabet": "L AA1 B IY0",
+    "ipa": "ˈlɒ.bi",
+    "phonetic_spelling": "Lob-ee",
+    "domain": "hotel_area",
+    "language": "English",
+    "alternatives": ["foyer", "entrance hall"]
+  },
+  "bellboy": {
+    "arpabet": "B EH1 L B OY2",
+    "ipa": "ˈbɛl.bɔɪ",
+    "phonetic_spelling": "Bell-boy",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["porter", "bellhop"]
+  },
+  "valet": {
+    "arpabet": "V AE0 L EY1",
+    "ipa": "væˈleɪ",
+    "phonetic_spelling": "Val-ay",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["valet parking"]
+  },
+  "minibar": {
+    "arpabet": "M IH1 N IY0 B AA2 R",
+    "ipa": "ˈmɪn.iˌbɑːr",
+    "phonetic_spelling": "Min-ee-bar",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["mini bar", "refreshment"]
+  },
+  "wifi": {
+    "arpabet": "W AY1 F AY2",
+    "ipa": "ˈwaɪ.faɪ",
+    "phonetic_spelling": "Why-fye",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["wireless", "internet"]
+  },
+  "spa": {
+    "arpabet": "S P AA1",
+    "ipa": "spɑː",
+    "phonetic_spelling": "Spaa",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["wellness", "massage"]
+  },
+  "gym": {
+    "arpabet": "JH IH1 M",
+    "ipa": "dʒɪm",
+    "phonetic_spelling": "Jihm",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["fitness center", "workout room"]
+  },
+  "restaurant": {
+    "arpabet": "R EH1 S T R AA2 N T",
+    "ipa": "ˈrɛs.trɒnt",
+    "phonetic_spelling": "Res-tront",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["dining", "eatery"]
+  },
+  "room_service": {
+    "arpabet": "R UW1 M S ER1 V AH0 S",
+    "ipa": "ˈruːm ˈsɜː.vɪs",
+    "phonetic_spelling": "Room sur-vis",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["in-room dining"]
+  },
+  "laundry": {
+    "arpabet": "L AO1 N D R IY0",
+    "ipa": "ˈlɔːn.dri",
+    "phonetic_spelling": "Lawn-dree",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["washing", "dry cleaning"]
+  },
+  "reception": {
+    "arpabet": "R IH0 S EH1 P SH AH0 N",
+    "ipa": "rɪˈsɛp.ʃən",
+    "phonetic_spelling": "Re-sep-shun",
+    "domain": "hotel_area",
+    "language": "English",
+    "alternatives": ["front desk", "check-in counter"]
+  },
+  "doorman": {
+    "arpabet": "D AO1 R M AE2 N",
+    "ipa": "ˈdɔːr.mæn",
+    "phonetic_spelling": "Dor-man",
+    "domain": "hotel_service",
+    "language": "English",
+    "alternatives": ["door attendant"]
+  },
+  "luggage": {
+    "arpabet": "L AH1 G IH0 JH",
+    "ipa": "ˈlʌɡ.ɪdʒ",
+    "phonetic_spelling": "Lug-ij",
+    "domain": "travel",
+    "language": "English",
+    "alternatives": ["baggage", "bags", "suitcase"]
+  },
+  "airport": {
+    "arpabet": "EH1 R P AO2 R T",
+    "ipa": "ˈɛər.pɔːrt",
+    "phonetic_spelling": "Air-port",
+    "domain": "travel",
+    "language": "English",
+    "alternatives": ["airfield", "airstrip"]
+  },
+  "shuttle": {
+    "arpabet": "SH AH1 T AH0 L",
+    "ipa": "ˈʃʌt.əl",
+    "phonetic_spelling": "Shut-uhl",
+    "domain": "travel",
+    "language": "English",
+    "alternatives": ["bus", "transport", "transfer"]
+  },
+  "mumbai": {
+    "arpabet": "M UH1 M B AY2",
+    "ipa": "ˈmʊm.baɪ",
+    "phonetic_spelling": "Moom-bye",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Bombay"],
+    "hindi_alternatives": ["मुंबई"],
+    "marathi_alternatives": ["मुंबई"]
+  },
+  "delhi": {
+    "arpabet": "D EH1 L IY0",
+    "ipa": "ˈdɛ.li",
+    "phonetic_spelling": "Deh-lee",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["दिल्ली"]
+  },
+  "bangalore": {
+    "arpabet": "B AE1 NG G AH0 L AO2 R",
+    "ipa": "ˈbæŋ.ɡə.lɔːr",
+    "phonetic_spelling": "Bang-guh-lor",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Bengaluru"],
+    "kannada_alternatives": ["ಬೆಂಗಳೂರು"]
+  },
+  "hyderabad": {
+    "arpabet": "HH AY1 D ER0 AH0 B AE2 D",
+    "ipa": "ˈhaɪ.dər.ə.bæd",
+    "phonetic_spelling": "Hy-der-uh-bad",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "telugu_alternatives": ["హైదరాబాద్"],
+    "urdu_alternatives": ["حیدرآباد"]
+  },
+  "chennai": {
+    "arpabet": "CH EH1 N AY2",
+    "ipa": "ˈtʃɛ.naɪ",
+    "phonetic_spelling": "Chen-nye",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Madras"],
+    "tamil_alternatives": ["சென்னை"]
+  },
+  "kolkata": {
+    "arpabet": "K OW1 L K AA2 T AA2",
+    "ipa": "ˈkoʊl.kɑː.tɑː",
+    "phonetic_spelling": "Kohl-kah-tah",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Calcutta"]
+  },
+  "pune": {
+    "arpabet": "P UW1 N EH2",
+    "ipa": "ˈpuː.neɪ",
+    "phonetic_spelling": "Poo-nay",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "marathi_alternatives": ["पुणे"]
+  },
+  "jaipur": {
+    "arpabet": "JH AY1 P UH0 R",
+    "ipa": "ˈdʒaɪ.pʊr",
+    "phonetic_spelling": "Jye-purr",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["जयपुर"]
+  },
+  "agra": {
+    "arpabet": "AA1 G R AH0",
+    "ipa": "ˈɑː.ɡrə",
+    "phonetic_spelling": "Ah-gruh",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["आगरा"]
+  },
+  "goa": {
+    "arpabet": "G OW1 AH0",
+    "ipa": "ˈɡoʊ.ə",
+    "phonetic_spelling": "Go-uh",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "konkani_alternatives": ["गोंय"]
+  },
+  "varanasi": {
+    "arpabet": "V ER0 AA1 N AH0 S IY0",
+    "ipa": "vərˈɑː.nə.si",
+    "phonetic_spelling": "Vur-ah-nuh-see",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Banaras", "Kashi"],
+    "hindi_alternatives": ["वाराणसी"]
+  },
+  "amritsar": {
+    "arpabet": "AH0 M R IH1 T S ER0",
+    "ipa": "əmˈrɪt.sər",
+    "phonetic_spelling": "Um-rit-sur",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "punjabi_alternatives": ["ਅੰਮ੍ਰਿਤਸਰ"]
+  },
+  "chandigarh": {
+    "arpabet": "CH AH2 N D IY0 G AA1 R",
+    "ipa": "ˌtʃʌn.diˈɡɑːr",
+    "phonetic_spelling": "Chun-dee-gar",
+    "domain": "city",
+    "language": "English",
+    "alternatives": []
+  },
+  "udaipur": {
+    "arpabet": "UW1 D AY2 P UH0 R",
+    "ipa": "ˈuː.daɪ.pʊr",
+    "phonetic_spelling": "Oo-dye-purr",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["उदयपुर"]
+  },
+  "kochi": {
+    "arpabet": "K OW1 CH IY0",
+    "ipa": "ˈkoʊ.tʃi",
+    "phonetic_spelling": "Koh-chee",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Cochin"],
+    "malayalam_alternatives": ["കൊച്ചി"]
+  },
+  "thiruvananthapuram": {
+    "arpabet": "TH IH2 R UW0 V AH0 N AA2 N T AH0 P UH0 R AH0 M",
+    "ipa": "ˌθɪr.uː.vəˌnɑːn.təˈpʊr.əm",
+    "phonetic_spelling": "Thih-roo-vuh-nahn-tuh-purr-um",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Trivandrum"],
+    "malayalam_alternatives": ["തിരുവനന്തപുരം"]
+  },
+  "vijayawada": {
+    "arpabet": "V IH1 JH AY0 AH0 W AA1 D AH0",
+    "ipa": "ˈvɪdʒ.aɪ.əˌwɑː.də",
+    "phonetic_spelling": "Vij-eye-uh-wah-duh",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "telugu_alternatives": ["విజయవాడ"]
+  },
+  "visakhapatnam": {
+    "arpabet": "V IH0 S AA2 K AH0 P AH1 T N AH0 M",
+    "ipa": "vɪˌsɑː.kəˈpʌt.nəm",
+    "phonetic_spelling": "Vih-sah-kuh-put-num",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Vizag"],
+    "telugu_alternatives": ["విశాఖపట్నం"]
+  },
+  "nagpur": {
+    "arpabet": "N AA1 G P UH0 R",
+    "ipa": "ˈnɑːɡ.pʊr",
+    "phonetic_spelling": "Naag-purr",
+    "domain": "city",
+    "language": "English",
+    "alternatives": [],
+    "marathi_alternatives": ["नागपूर"]
+  },
+  "aurangabad": {
+    "arpabet": "AO1 R AH0 NG G AA1 B AA1 D",
+    "ipa": "ˈɔːr.əŋˌɡɑːˈbɑːd",
+    "phonetic_spelling": "Or-ung-gah-bahd",
+    "domain": "city",
+    "language": "English",
+    "marathi_alternatives": ["औरंगाबाद"]
+  },
+  "nashik": {
+    "arpabet": "N AA1 SH IH0 K",
+    "ipa": "ˈnɑː.ʃɪk",
+    "phonetic_spelling": "Nah-shik",
+    "domain": "city",
+    "language": "English",
+    "marathi_alternatives": ["नाशिक"]
+  },
+  "surat": {
+    "arpabet": "S UH1 R AH0 T",
+    "ipa": "ˈsʊ.rət",
+    "phonetic_spelling": "Suh-ruht",
+    "domain": "city",
+    "language": "English",
+    "gujarati_alternatives": ["સુરત"]
+  },
+  "ahmedabad": {
+    "arpabet": "AA1 M EH2 D AH0 B AA1 D",
+    "ipa": "ˈɑː.mɛ.də.bɑːd",
+    "phonetic_spelling": "Ah-meh-duh-bahd",
+    "domain": "city",
+    "language": "English",
+    "gujarati_alternatives": ["અમદાવાદ"]
+  },
+  "lucknow": {
+    "arpabet": "L AH1 K N AW2",
+    "ipa": "ˈlʌk.naʊ",
+    "phonetic_spelling": "Luk-now",
+    "domain": "city",
+    "language": "English",
+    "hindi_alternatives": ["लखनऊ"]
+  },
+  "guwahati": {
+    "arpabet": "G UH0 W AA1 HH AA2 T IY0",
+    "ipa": "ɡʊˈwɑː.hɑː.ti",
+    "phonetic_spelling": "Goo-wah-hah-tee",
+    "domain": "city",
+    "language": "English",
+    "assamese_alternatives": ["গুৱাহাটী"]
+  },
+  "bengaluru": {
+    "arpabet": "B EH1 NG G AH0 L UH0 R UW2",
+    "ipa": "ˈbɛŋ.ɡə.lʊ.ruː",
+    "phonetic_spelling": "Beng-guh-loor-oo",
+    "domain": "city",
+    "language": "English",
+    "alternatives": ["Bangalore"],
+    "kannada_alternatives": ["ಬೆಂಗಳೂರು"]
+  },
+  "check_in": {
+    "arpabet": "CH EH1 K IH2 N",
+    "ipa": "ˈtʃɛk.ɪn",
+    "phonetic_spelling": "Check-in",
+    "domain": "booking",
+    "language": "English"
+  },
+  "check_out": {
+    "arpabet": "CH EH1 K AW2 T",
+    "ipa": "ˈtʃɛk.aʊt",
+    "phonetic_spelling": "Check-owt",
+    "domain": "booking",
+    "language": "English"
+  },
+  "room": {
+    "arpabet": "R UW1 M",
+    "ipa": "ruːm",
+    "phonetic_spelling": "Room",
+    "domain": "room_type",
+    "language": "English",
+    "hindi_alternatives": ["कमरा"],
+    "telugu_alternatives": ["గది"],
+    "marathi_alternatives": ["खोली"],
+    "malayalam_alternatives": ["മുറി"]
+  },
+  "today": {
+    "arpabet": "T AH0 D EY1",
+    "ipa": "təˈdeɪ",
+    "phonetic_spelling": "Tuh-day",
+    "domain": "time",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["आज"],
+    "telugu_alternatives": ["ఈరోజు"],
+    "marathi_alternatives": ["आज"],
+    "malayalam_alternatives": ["ഇന്ന്"]
+  },
+  "tomorrow": {
+    "arpabet": "T AH0 M AA1 R OW0",
+    "ipa": "təˈmɒr.oʊ",
+    "phonetic_spelling": "Tuh-mor-oh",
+    "domain": "time",
+    "language": "English",
+    "alternatives": ["tmrw"],
+    "hindi_alternatives": ["कल"],
+    "telugu_alternatives": ["రేపు"],
+    "marathi_alternatives": ["उद्या"],
+    "malayalam_alternatives": ["നാളെ"]
+  },
+  "tonight": {
+    "arpabet": "T AH0 N AY1 T",
+    "ipa": "təˈnaɪt",
+    "phonetic_spelling": "Tuh-nite",
+    "domain": "time",
+    "language": "English",
+    "alternatives": ["tonite"],
+    "hindi_alternatives": ["आज रात"],
+    "telugu_alternatives": ["ఈరాత్రి"],
+    "marathi_alternatives": ["आज रात्री"],
+    "malayalam_alternatives": ["ഇന്ന് രാത്രി"]
+  },
+  "yesterday": {
+    "arpabet": "Y EH1 S T ER0 D EY2",
+    "ipa": "ˈjɛs.tər.deɪ",
+    "phonetic_spelling": "Yess-ter-day",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["कल"],
+    "telugu_alternatives": ["నిన్న"],
+    "marathi_alternatives": ["काल"],
+    "malayalam_alternatives": ["ഇന്നലെ"]
+  },
+  "morning": {
+    "arpabet": "M AO1 R N IH0 NG",
+    "ipa": "ˈmɔːr.nɪŋ",
+    "phonetic_spelling": "Mor-ning",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["सुबह"],
+    "telugu_alternatives": ["ఉదయం"],
+    "marathi_alternatives": ["सकाळी"],
+    "malayalam_alternatives": ["രാവിലെ"]
+  },
+  "evening": {
+    "arpabet": "IY1 V N IH0 NG",
+    "ipa": "ˈiːv.nɪŋ",
+    "phonetic_spelling": "Eev-ning",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["शाम"],
+    "telugu_alternatives": ["సాయంత్రం"],
+    "marathi_alternatives": ["संध्याकाळ"],
+    "malayalam_alternatives": ["വൈകുന്നേരം"]
+  },
+  "night": {
+    "arpabet": "N AY1 T",
+    "ipa": "naɪt",
+    "phonetic_spelling": "Nite",
+    "domain": "time",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["रात"],
+    "telugu_alternatives": ["రాత్రి"],
+    "marathi_alternatives": ["रात्री"],
+    "malayalam_alternatives": ["രാത്രി"]
+  },
+  "week": {
+    "arpabet": "W IY1 K",
+    "ipa": "wiːk",
+    "phonetic_spelling": "Week",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["हफ्ता", "सप्ताह"],
+    "telugu_alternatives": ["వారం"],
+    "marathi_alternatives": ["आठवडा"],
+    "malayalam_alternatives": ["ആഴ്ച"]
+  },
+  "month": {
+    "arpabet": "M AH1 N TH",
+    "ipa": "mʌnθ",
+    "phonetic_spelling": "Munth",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["महीना"],
+    "telugu_alternatives": ["నెల"],
+    "marathi_alternatives": ["महिना"],
+    "malayalam_alternatives": ["മാസം"]
+  },
+  "hour": {
+    "arpabet": "AW1 ER0",
+    "ipa": "ˈaʊər",
+    "phonetic_spelling": "Ow-er",
+    "domain": "time",
+    "language": "English",
+    "hindi_alternatives": ["घंटा"],
+    "telugu_alternatives": ["గంట"],
+    "marathi_alternatives": ["तास"],
+    "malayalam_alternatives": ["മണിക്കൂർ"]
+  },
+  "ac": {
+    "arpabet": "EY1 S IY1",
+    "ipa": "ˌeɪˈsiː",
+    "phonetic_spelling": "Ay-See",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["air conditioning", "aircon", "a/c"]
+  },
+  "parking": {
+    "arpabet": "P AA1 R K IH0 NG",
+    "ipa": "ˈpɑːr.kɪŋ",
+    "phonetic_spelling": "Par-king",
+    "domain": "amenity",
+    "language": "English",
+    "hindi_alternatives": ["पार्किंग"],
+    "telugu_alternatives": ["పార్కింగ్"],
+    "marathi_alternatives": ["पार्किंग"],
+    "malayalam_alternatives": ["പാർക്കിംഗ്"]
+  },
+  "breakfast": {
+    "arpabet": "B R EH1 K F AH0 S T",
+    "ipa": "ˈbrɛk.fəst",
+    "phonetic_spelling": "Brek-fuhst",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["break fast"],
+    "hindi_alternatives": ["नाश्ता"],
+    "telugu_alternatives": ["అల్పాహారం"],
+    "marathi_alternatives": ["नाश्ता"],
+    "malayalam_alternatives": ["പ്രഭാതഭക്ഷണം"]
+  },
+  "lunch": {
+    "arpabet": "L AH1 N CH",
+    "ipa": "lʌntʃ",
+    "phonetic_spelling": "Lunch",
+    "domain": "dining",
+    "language": "English",
+    "hindi_alternatives": ["दोपहर का भोजन"],
+    "telugu_alternatives": ["భోజనం"],
+    "marathi_alternatives": ["दुपारचे जेवण"],
+    "malayalam_alternatives": ["ഉച്ചഭക്ഷണം"]
+  },
+  "dinner": {
+    "arpabet": "D IH1 N ER0",
+    "ipa": "ˈdɪn.ər",
+    "phonetic_spelling": "Din-ur",
+    "domain": "dining",
+    "language": "English",
+    "hindi_alternatives": ["रात का खाना"],
+    "telugu_alternatives": ["రాత్రి భోజనం"],
+    "marathi_alternatives": ["रात्रीचे जेवण"],
+    "malayalam_alternatives": ["അത്താഴം"]
+  },
+  "pool": {
+    "arpabet": "P UW1 L",
+    "ipa": "puːl",
+    "phonetic_spelling": "Pool",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["swimming pool", "swim"]
+  },
+  "late_checkout": {
+    "arpabet": "L EY1 T CH EH1 K AW2 T",
+    "ipa": "ˌleɪt ˈtʃɛk.aʊt",
+    "phonetic_spelling": "Late check-owt",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["late checkout"]
+  },
+  "early_checkin": {
+    "arpabet": "ER1 L IY0 CH EH1 K IH2 N",
+    "ipa": "ˈɜːr.li ˈtʃɛk.ɪn",
+    "phonetic_spelling": "Er-lee check-in",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["early checkin"]
+  },
+  "extra_bed": {
+    "arpabet": "EH1 K S T R AH0 B EH1 D",
+    "ipa": "ˈɛk.strə bɛd",
+    "phonetic_spelling": "Ek-struh bed",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["rollaway", "extra bed"]
+  },
+  "baby_cot": {
+    "arpabet": "B EY1 B IY0 K AA1 T",
+    "ipa": "ˈbeɪ.bi kɒt",
+    "phonetic_spelling": "Bay-bee kot",
+    "domain": "amenity",
+    "language": "English",
+    "alternatives": ["crib", "baby bed"]
+  },
+  "room_upgrade": {
+    "arpabet": "R UW1 M AH0 P G R EY1 D",
+    "ipa": "ˈruːm ʌpˌɡreɪd",
+    "phonetic_spelling": "Room up-grayd",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["upgrade"]
+  },
+  "no_show": {
+    "arpabet": "N OW1 SH OW1",
+    "ipa": "ˌnoʊ ˈʃoʊ",
+    "phonetic_spelling": "Noh shoh",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["noshow"]
+  },
+  "deposit": {
+    "arpabet": "D IH0 P AA1 Z IH0 T",
+    "ipa": "dɪˈpɒz.ɪt",
+    "phonetic_spelling": "Dih-poz-it",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["advance", "down payment"]
+  },
+  "receipt": {
+    "arpabet": "R IH0 S IY1 T",
+    "ipa": "rɪˈsiːt",
+    "phonetic_spelling": "Re-seet",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["bill", "invoice"]
+  },
+  "amount": {
+    "arpabet": "AH0 M AW1 N T",
+    "ipa": "əˈmaʊnt",
+    "phonetic_spelling": "Uh-mownt",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["total", "price", "cost"]
+  },
+  "discount": {
+    "arpabet": "D IH1 S K AW2 N T",
+    "ipa": "ˈdɪs.kaʊnt",
+    "phonetic_spelling": "Diss-kownt",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["offer", "deal", "discount"]
+  },
+  "tax": {
+    "arpabet": "T AE1 K S",
+    "ipa": "tæks",
+    "phonetic_spelling": "Taks",
+    "domain": "billing",
+    "language": "English",
+    "alternatives": ["gst", "vat", "service tax"]
+  },
+  "rupee": {
+    "arpabet": "R UW1 P IY0",
+    "ipa": "ˈruː.pi",
+    "phonetic_spelling": "Roo-pee",
+    "domain": "currency",
+    "language": "English",
+    "alternatives": ["rs", "rupiah"],
+    "hindi_alternatives": ["रुपया"],
+    "telugu_alternatives": ["రూపాయి"],
+    "marathi_alternatives": ["रुपया"],
+    "malayalam_alternatives": ["രൂപ"]
+  },
+  "dollar": {
+    "arpabet": "D AA1 L ER0",
+    "ipa": "ˈdɑː.lər",
+    "phonetic_spelling": "Dah-ler",
+    "domain": "currency",
+    "language": "English",
+    "alternatives": ["usd", "$"]
+  },
+  "pnr": {
+    "arpabet": "P IY1 EH1 N AA1 R",
+    "ipa": "ˌpiːˈɛnˈɑːr",
+    "phonetic_spelling": "Pee-En-Ar",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["booking reference", "confirmation number"]
+  },
+  "booking_id": {
+    "arpabet": "B UH1 K IH0 NG AY1 D IY1",
+    "ipa": "ˈbʊk.ɪŋ ˌaɪˈdiː",
+    "phonetic_spelling": "Book-ing eye-dee",
+    "domain": "booking",
+    "language": "English",
+    "alternatives": ["confirmation id", "reservation id"]
+  },
+  "id_proof": {
+    "arpabet": "AY1 D IY1 P R UW1 F",
+    "ipa": "ˌaɪˈdiː pruːf",
+    "phonetic_spelling": "Eye-dee proof",
+    "domain": "documentation",
+    "language": "English",
+    "alternatives": ["identity proof", "id", "identification"]
+  },
+  "aadhaar": {
+    "arpabet": "AA1 D AA1 R",
+    "ipa": "ˈɑː.dɑːr",
+    "phonetic_spelling": "Ah-daar",
+    "domain": "documentation",
+    "language": "English",
+    "alternatives": [],
+    "hindi_alternatives": ["आधार"]
+  },
+  "passport": {
+    "arpabet": "P AE1 S P AO2 R T",
+    "ipa": "ˈpæs.pɔːrt",
+    "phonetic_spelling": "Pass-port",
+    "domain": "documentation",
+    "language": "English",
+    "alternatives": []
+  },
+  "pan_card": {
+    "arpabet": "P AE1 N K AA1 R D",
+    "ipa": "ˈpæn kɑːrd",
+    "phonetic_spelling": "Pan card",
+    "domain": "documentation",
+    "language": "English",
+    "alternatives": ["pan"]
+  },
+  "non_veg": {
+    "arpabet": "N AA1 N V EH1 G",
+    "ipa": "ˈnɒn ˈvɛɡ",
+    "phonetic_spelling": "Non veg",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["non-vegetarian"]
+  },
+  "veg": {
+    "arpabet": "V EH1 G",
+    "ipa": "vɛɡ",
+    "phonetic_spelling": "Veg",
+    "domain": "dining",
+    "language": "English",
+    "alternatives": ["vegetarian"]
+  }
+}

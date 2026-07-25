@@ -1,0 +1,3 @@
+[bandit]
+exclude: extensions,test_reviews.db,__pycache__,tests
+skips: B101,B105,B106,B107,B303,B311,B404,B603,B605,B607

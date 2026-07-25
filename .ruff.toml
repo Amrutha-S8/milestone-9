@@ -1,0 +1,83 @@
+target-version = "py311"
+exclude = ["extensions"]
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "ANN",     # No annotation requirement
+    "ARG001",  # Unused args ok in FastAPI
+    "ARG002",  # Unused method arguments in tests
+    "B008",    # FastAPI Depends() calls in function defaults
+    "BLE001",  # Blind exception - acceptable in scripts/tests
+    "C901",    # Function complexity - acceptable
+    "COM812",  # Trailing commas handled by formatter
+    "CPY001",  # Copyright notice not required
+    "D401",    # Docstring imperative mood - not enforcing
+    "D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107",
+    "D200", "D205", "D212", "D213", "D413", "D204", "D400", "D415",
+    "E501",    # Line length
+    "E722",    # Bare except - acceptable in scripts
+    "EM101",   # Exception string literal - acceptable in tests
+    "EM102",   # Exception f-string - acceptable in tests
+    "ERA001",  # Commented out code
+    "F405",    # Unused function argument in star imports
+    "FAST001", # FastAPI response_model is fine
+    "FAST002", # FastAPI Depends without Annotated is fine
+    "FBT001",  # Boolean positional argument - acceptable in test fixtures
+    "FBT002",  # Boolean default positional argument
+    "ISC001",  # Implicit string concat handled by formatter
+    "N802",    # Function name should be lowercase - test fixtures
+    "N803",    # Argument name should be lowercase
+    "N806",    # Variable in function should be lowercase
+    "N815",    # MixedCase variable
+    "PGH004",  # Use specific rule codes
+    "PLC0415", # Import not at top level - acceptable in tests
+    "PLW0603", # Using global statement - acceptable for cache singletons
+    "PLR0913", # FastAPI handlers need many params
+    "PLR0917", # FastAPI handlers need many params
+    "PLR0912", # Too many branches - acceptable in extraction logic
+    "PLR2004", # Magic values in comparisons (thresholds, etc.)
+    "PT009",   # pytest assertion style
+    "RUF005",  # iterable unpacking
+    "RUF012",  # Mutable class defaults
+    "S101",    # Allow assert in test files
+    "SIM102",  # Nested if simplification
+    "SLF001",  # Private member access - intentional in evaluators
+    "T201",    # print found - acceptable in scripts
+    "TD001",   # TODO format
+    "TD002",   # TODO missing author
+    "TD003",   # TODO missing issue link
+    "TD004",   # TODO missing issue
+    "TRY003",  # Exception message outside class
+    "UP031",   # Use format specifiers instead of %
+    "W293",    # Blank line whitespace
+    "B904",    # raise from err in except - acceptable pattern
+    "DTZ005",  # datetime.now() without tz - acceptable in scripts
+    "E741",    # Ambiguous variable name - minor
+    "FBT003",  # Boolean positional value - acceptable in tests/fixtures
+    "INP001",  # Implicit namespace package - scripts aren't packages
+    "PERF401", # Use list.extend - minor performance
+    "PLR0915", # Too many statements - acceptable in tests
+    "PLW1510", # subprocess without check - acceptable in scripts
+    "PLW2901", # for loop variable overwritten - intentional
+    "PTH103",  # os.makedirs -> Path.mkdir - acceptable in scripts
+    "PTH108",  # os.unlink -> Path.unlink - acceptable
+    "PTH110",  # os.path.exists -> Path.exists - acceptable in scripts
+    "PTH118",  # os.path.join -> Path / - acceptable in scripts
+    "PTH120",  # os.path.dirname -> Path.parent - acceptable in scripts
+    "PTH123",  # open() -> Path.open() - acceptable in scripts
+    "RUF001",  # Ambiguous string - acceptable in test data
+    "S104",    # Bind all interfaces - acceptable in main.py
+    "S106",    # Hardcoded password - acceptable in tests
+    "S110",    # try-except-pass - acceptable in scripts
+    "S311",    # Random not for crypto - acceptable in load tests
+    "S603",    # subprocess untrusted input - acceptable in scripts
+    "TRY300",  # Move to else block - acceptable
+    "TRY401",  # Redundant exception in logging - acceptable
+    "UP017",   # datetime.UTC alias - removed in Python 3.14
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"

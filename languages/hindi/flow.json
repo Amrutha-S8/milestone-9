@@ -1,0 +1,69 @@
+{
+  "language": "Hindi",
+  "language_code": "hi",
+  "flows": {
+    "greeting": {
+      "intent": "greeting",
+      "next_action": "ask_how_to_help",
+      "response_template": "नमस्ते! स्टेज़ा होटल में आपका स्वागत है। मैं आपकी क्या सहायता कर सकता हूँ?",
+      "keywords": ["नमस्ते", "नमस्कार", "प्रणाम", "हेलो", "स्टेज़ा"],
+      "examples": ["नमस्ते स्टेज़ा", "हेलो नमस्कार", "गुड मॉर्निंग स्टेज़ा"]
+    },
+    "booking": {
+      "intent": "booking",
+      "next_action": "ask_checkin_date",
+      "response_template": "मुझे आपके लिए कमरा बुक करने में खुशी होगी। आपकी चेक-इन तिथि क्या है?",
+      "keywords": ["कमरा बुक", "बुक करना", "आरक्षण", "कमरा चाहिए", "होटल बुक"],
+      "examples": ["मुझे एक कमरा बुक करना है", "एक सुइट बुक करें", "होटल में बुकिंग करनी है"]
+    },
+    "availability": {
+      "intent": "availability",
+      "next_action": "ask_stay_dates",
+      "response_template": "मैं आपके लिए कमरे की उपलब्धता की जांच करता हूँ। आप किस तारीख को रुकना चाहते हैं?",
+      "keywords": ["उपलब्ध", "खाली", "कमरा खाली", "उपलब्धता"],
+      "examples": ["क्या कल के लिए कमरा उपलब्ध है?", "क्या होटल में कोई कमरा खाली है?"]
+    },
+    "price_enquiry": {
+      "intent": "price_enquiry",
+      "next_action": "provide_rate_card",
+      "response_template": "हमारे कमरे का किराया ₹3000 प्रति रात्रि से शुरू होता है।",
+      "keywords": ["किराया", "कीमत", "दाम", "चार्ज", "कितना है"],
+      "examples": ["एक कमरे का किराया कितना है?", "कमरे की दरें क्या हैं?"]
+    },
+    "cancellation": {
+      "intent": "cancellation",
+      "next_action": "ask_booking_id",
+      "response_template": "मैं आपकी बुकिंग रद्द करने में मदद कर सकता हूँ। कृपया अपनी बुकिंग आईडी प्रदान करें।",
+      "keywords": ["रद्द", "कैंसल", "बुकिंग रद्द", "वापस"],
+      "examples": ["मुझे अपनी बुकिंग रद्द करनी है", "मेरी बुकिंग कैंसल कर दीजिए"]
+    },
+    "modify_booking": {
+      "intent": "modify_booking",
+      "next_action": "ask_modification_details",
+      "response_template": "मैं आपकी बुकिंग में बदलाव कर सकता हूँ। आप क्या बदलाव करना चाहते हैं?",
+      "keywords": ["बदलाव", "बदलना", "तारीख बदलना", "संशोधन"],
+      "examples": ["मुझे अपनी बुकिंग की तारीख बदलनी है", "बुकिंग में बदलाव करना है"]
+    },
+    "check_status": {
+      "intent": "check_status",
+      "next_action": "ask_booking_id",
+      "response_template": "मैं आपकी बुकिंग की स्थिति जांच सकता हूँ। कृपया अपनी बुकिंग आईडी प्रदान करें।",
+      "keywords": ["स्थिति", "बुकिंग स्थिति", "मेरी बुकिंग दिखाओ", "ट्रैक बुकिंग"],
+      "examples": ["मेरी बुकिंग की स्थिति क्या है?", "बुकिंग स्टेटस चेक करें"]
+    },
+    "goodbye": {
+      "intent": "goodbye",
+      "next_action": "end_call",
+      "response_template": "स्टेज़ा होटल से संपर्क करने के लिए धन्यवाद। आपका दिन शुभ हो!",
+      "keywords": ["धन्यवाद", "शुक्रिया", "बाय", "अलविदा"],
+      "examples": ["धन्यवाद शुक्रिया", "बाय स्टेज़ा", "अलविदा"]
+    },
+    "unknown": {
+      "intent": "unknown",
+      "next_action": "ask_clarification",
+      "response_template": "क्षमा करें, मैं समझ नहीं पाया। क्या आप कृपया दोबारा बोल सकते हैं?",
+      "keywords": [],
+      "examples": ["अबकड 12345"]
+    }
+  }
+}
